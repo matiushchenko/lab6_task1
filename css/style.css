@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+.hero-section {
+    background-image: url('../img/sample2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+}
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 15px;
+    display: flex; /* Додали гнучкість для центрування */
+    align-items: center; /* Вертикальне центрування */
+}
+.menu-item {
+    margin-left: 20px; /* Відступ між пунктами меню */
+}
+.brand-name {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.brand-tagline {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.btn-about {
+    background-color: #00000086;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    width: 170px; /* Задаємо ширину кнопки */
+    margin-left: 30px; /* Відступ зліва */
+    margin-right: 30px; /* Відступ справа */
+    margin-left: 150px; /* Відступ між кнопками */
+    margin-right: 150px; /* Відступ між кнопками */
+
+}
+.buttons {
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі */
+}
+.diagonal-section {
+    height: 25vh;
+    background: linear-gradient(to top right, rgb(242, 242, 242) 50%, black 50%); /* Градієнт з білого до чорного по діагоналі */
+    display: flex;
+    justify-content: space-between; /* Рівномірний відступ між елементами */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    font-size:15px;
+    padding-bottom: 70px;
+
+}
+.text-left,
+.text-right, .text-right1, .text-left1 {
+    width: 45%; /* Ширина кожного текстового блоку */
+    text-align: left;
+}
+.text-left{
+    color: black;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.text-right{
+    color: rgb(248, 248, 248);
+    margin-right: 30px;
+    font-size: 13px;
+}
+.text-left p{
+    margin: 0px;
+}
+.text-right p{
+    margin-top: 0px;
+}
+.content2 {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size:25px;
+    text-align: center; /* Центрування тексту всередині блоку */
+}
+.content-right1{
+    color: rgb(16, 16, 16);
+    margin-right: 30px;
+    font-size: 12px;
+    margin-left: 50px;
+}
+.text-left1{
+    color: black;
+    margin-left: 30px;
+}
+.image-container {
+     width: 750px;
+    height: 250px;
+    overflow: hidden; /* Це обрізає зайву частину фото */
+}
+.image-container img {
+   width: 100%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.new-section {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around; /* Рівномірний розподіл блоків */
+    padding: 30px;
+}
+
+.block {
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adding shadow */
+}
+
+.btn-center {
+    display: block;
+    margin: 0px auto; /* Розташування кнопки по центру блоку */
+    padding: 10px 150px;
+    background-color: rgba(9, 119, 116, 1.00); /* Стилізація кнопки */
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+.subscribe-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #7d7d7d;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 200px;
+    background-color: rgb(242, 242, 242);
+}
+.subscribe-form button {
+    padding: 8px 20px;
+    background-color: rgba(9, 119, 116, 1.00);
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.new {
+    padding: 30px;
+}
+.block1 {
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 0px;
+}
+.block1 p{
+    color: #5e5e5e;
+    margin: 2px;
+    font-size: 13px;
+}
+footer {
+ background-color: #ffffff;
+ padding: 20px;
+ font-size: 13px;
+ border-top: 1px solid #ccc;
+}
+
+.footer-content {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-menu ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: right;
+}
+
+.footer-menu ul li {
+ display: inline-block;
+margin-right: 20px;
+}
+
+.footer-menu ul li a {
+ text-decoration: none;
+    color: #333;
+}
+
+.footer-menu ul li a:hover {
+     color: #555;
+}
